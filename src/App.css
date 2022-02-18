@@ -9,16 +9,34 @@ header {
   text-align: center;
 }
 
-.title-container {
+.solar-system-container {
+  align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
 .title {
-  text-align: center;
-  font-size: 1.8em;
-  border: 1px solid whitesmoke;
-  padding: 0.7em 16em;
-  border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.438);
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  font-size: 1.8em;
+  padding: 0.7em 16em;
+  text-align: center;
+}
+
+.planet-cards-container {
+  display: flex;
+  width: 90%;
+}
+
+.planet-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.planet-card img {
+  width: 100%;
 }
