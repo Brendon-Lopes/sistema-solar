@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-image: url('images/background.png');
   color: white;
@@ -6,6 +12,7 @@ body {
 
 header {
   font-size: 1.5em;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -21,6 +28,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .title {
@@ -28,8 +36,10 @@ header {
   border: 1px solid whitesmoke;
   border-radius: 10px;
   font-size: 1.8em;
-  padding: 0.7em 16em;
+  margin: 50px 0 40px;
+  padding: 0.7em 0;
   text-align: center;
+  width: 80%;
 }
 
 .planet-cards-container {
@@ -46,4 +56,33 @@ header {
 
 .planet-card img {
   width: 100%;
+}
+
+.mission-card-container {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+}
+
+.mission-card {
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+}
+
+.mission-name, .mission-year, .mission-country, .mission-destination {
+  padding-left: 16px;
+}
+
+.mission-name {
+  border-bottom: 1px solid rgba(245, 245, 245, 0.726);
+  font-size: 1.6em;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding: 20px 0 20px 16px;
+}
+
+.mission-year, .mission-country, .mission-destination {
+  font-size: 1.4em;
+  padding-bottom: 20px;
 }
