@@ -8,3 +8,17 @@ header {
   font-size: 1.5em;
   text-align: center;
 }
+
+.title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.8em;
+  border: 1px solid whitesmoke;
+  padding: 0.7em 16em;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.438);
+}
