@@ -16,6 +16,13 @@ header {
   justify-content: center;
 }
 
+.missions-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .title {
   background-color: rgba(0, 0, 0, 0.438);
   border: 1px solid whitesmoke;
