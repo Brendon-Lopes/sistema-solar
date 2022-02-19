@@ -1,3 +1,4 @@
+/* stylelint-disable selector-no-qualifying-type */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -44,7 +45,10 @@ header {
 }
 
 .planet-cards-container {
+  align-items: flex-end;
   display: flex;
+  height: 100%;
+  justify-content: center;
   width: 90%;
 }
 
@@ -52,11 +56,14 @@ header {
   align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  height: 100%;
+  margin: 0 2em;
 }
 
-.planet-card img {
-  width: 100%;
+.planet-img-container {
+  align-items: center;
+  display: flex;
+  height: 118px;
 }
 
 .mission-card-container {
@@ -86,4 +93,36 @@ header {
 .mission-year, .mission-country, .mission-destination {
   font-size: 1.4em;
   padding-bottom: 20px;
+}
+
+img[ alt = 'Planeta Mercúrio' ] {
+  width: 2em;
+}
+
+img[ alt = 'Planeta Vênus' ] {
+  width: 4em;
+}
+
+img[ alt = 'Planeta Terra' ] {
+  width: 4.2em;
+}
+
+img[ alt = 'Planeta Marte' ] {
+  width: 2.5em;
+}
+
+img[ alt = 'Planeta Júpiter' ] {
+  width: 10em;
+}
+
+img[ alt = 'Planeta Saturno' ] {
+  width: 10em;
+}
+
+img[ alt = 'Planeta Urano' ] {
+  width: 6em;
+}
+
+img[ alt = 'Planeta Netuno' ] {
+  width: 6em;
 }
